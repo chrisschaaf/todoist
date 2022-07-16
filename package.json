@@ -5,7 +5,12 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "@fitbit/sdk": "~6.1.0",
-    "@fitbit/sdk-cli": "^1.7.3"
+    "@fitbit/sdk-cli": "^1.7.3",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2"
   },
   "fitbit": {
     "appUUID": "33c49cce-7597-42ae-ad52-1e53fddfa0bc",
@@ -24,5 +29,9 @@
   "scripts": {
     "build": "fitbit-build",
     "debug": "fitbit"
-  }
+  },
+  "dependencies": {},
+  "main": "app/index.ts",
+  "repository": "https://github.com/chrisschaaf/todoist.git",
+  "author": "Chris Schaaf <cschaaf3894@gmail.com>"
 }

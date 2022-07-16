@@ -1,1 +1,9 @@
+# node files
 node_modules/
+
+# Compiled files
+build/
+
+# Local settings
+.vscode
+dev.cfg
